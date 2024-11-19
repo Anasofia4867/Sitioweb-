@@ -1,0 +1,223 @@
+Sitio web Ana Sofia (chic Street)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Street - Emprendimiento de Moda</title>
+    <style>
+        /* General */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        /* Header */
+        .header {
+            background-color: #4A90E2;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .sobre-nosotros, .mision-vision, .fortalezas, .oportunidades {
+            background-color: #fff;
+            margin: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .sobre-nosotros h2, .mision-vision h2, .fortalezas h2, .oportunidades h2, .crowdfunding h2, .contacto h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #4A90E2;
+        }
+
+        .mision-vision p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        .mision-vision p strong {
+            display: block;
+            margin-top: 15px;
+        }
+
+        /* Crowdfunding */
+        .crowdfunding {
+            background-color: #4A90E2;
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .crowdfunding p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .crowdfunding a.boton {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #4A90E2;
+            background-color: #FFC107;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .crowdfunding a.boton:hover {
+            background-color: #e0a800;
+        }
+
+        /* Contacto */
+        .contacto form {
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .contacto label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .contacto input, .contacto textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contacto button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #4A90E2;
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contacto button:hover {
+            background-color: #357ABD;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Chic Street</h1>
+        <p>Moda con propósito, apoyada por líderes en crecimiento.</p>
+    </header>
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p><strong>Chic Street</strong> es una marca de moda emergente que combina estilo urbano con conciencia social. Nuestro objetivo es ofrecer ropa de alta calidad que permita a nuestros clientes expresar su individualidad y, al mismo tiempo, apoyar un emprendimiento comprometido con el crecimiento sostenible. Creemos en la moda como una herramienta para empoderar a nuestros clientes y crear un impacto positivo en la comunidad.</p>
+    </section>
+
+    <!-- Sección Misión y Visión -->
+    <section class="mision-vision">
+        <h2>Misión y Visión</h2>
+        <p><strong>Misión:</strong> Aplicar los conocimientos adquiridos en la universidad, para la creación de la empresa.</p>
+        <p><strong>Visión:</strong> Me proyecto como profesional a unos 7 años teniendo mi propia empresa de ropa.</p>
+    </section>
+
+    <!-- Sección de Fortalezas -->
+    <section class="fortalezas">
+        <h2>Nuestras Fortalezas</h2>
+        <p>Chic Street destaca por su determinación, liderazgo y adaptabilidad, para ofrecer moda innovadora en un mercado competitivo.</p>
+        <ul>
+            <li><strong>Determinación:</strong> Compromiso firme para cumplir nuestros objetivos y satisfacer a nuestros clientes.</li>
+            <li><strong>Liderazgo:</strong> Inspiración para marcar tendencias únicas en moda.</li>
+            <li><strong>Adaptabilidad:</strong> Flexibilidad para evolucionar con el mercado y responder a las necesidades cambiantes.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Oportunidades -->
+    <section class="oportunidades">
+        <h2>Oportunidades de Crecimiento</h2>
+        <p>El mercado de moda está en constante expansión y contamos con apoyo de plataformas de crowdfunding para obtener financiamiento ágil.</p>
+        <ul>
+            <li>Mercado de moda en crecimiento y alta demanda de productos únicos.</li>
+            <li>Posibilidades de financiamiento rápido a través de plataformas como Kickstarter y GoFundMe.</li>
+            <li>Oportunidad de crear una comunidad de moda consciente.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Crowdfunding -->
+    <section class="crowdfunding">
+        <h2>Apoya a Chic Street</h2>
+        <p>Con tu apoyo, Chic Street crecerá y ofrecerá moda de alta calidad con propósito. Únete y ayúdanos a marcar la diferencia.</p>
+        <a href="#" class="boton">Apoya en nuestro Crowdfunding</a>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes preguntas o te gustaría colaborar? ¡Escríbenos!</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Chic Street. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
